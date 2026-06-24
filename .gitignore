@@ -1,0 +1,61 @@
+# =========================
+# Build Output
+# =========================
+**/bin/
+**/obj/
+**/out/
+
+# =========================
+# Solution / Rider / VS
+# =========================
+.vs/
+.idea/
+*.sln.DotSettings.user
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# .NET / NuGet
+# =========================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# =========================
+# EF Core
+# =========================
+**/Migrations/*Designer.cs
+**/Migrations/*.db
+
+# =========================
+# ASP.NET Core Secrets
+# =========================
+appsettings.Development.json
+appsettings.Local.json
+.env
+
+# =========================
+# Test / Coverage
+# =========================
+TestResults/
+coverage/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Node (if frontend exists later)
+# =========================
+node_modules/
+dist/
